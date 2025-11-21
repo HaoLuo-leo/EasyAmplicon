@@ -2,11 +2,15 @@
 
 The Chinese version in (中文版见) [README_cn.md](./README_cn.md)
 
-[**EasyAmplicon: An easy-to-use, open-source, reproducible, and community-based pipeline for amplicon data analysis in microbiome research**](https://doi.org/10.1002/imt2.83)
+[Liu, et al. 2023. **iMeta**. EasyAmplicon: An easy-to-use, open-source, reproducible, and community-based pipeline for amplicon data analysis in microbiome research.](https://doi.org/10.1002/imt2.83)
 
-Version：v2.01
+[Yousuf, et al. 2024. **iMetaOmics**. Unveiling microbial communities with EasyAmplicon: A user-centric guide to perform amplicon sequencing data analysis.](https://doi.org/10.1002/imo2.42)
 
-Update：2025/09/16
+[Luo, et al. 2025. **Advanced Science**. EasyAmplicon 2: Expanding PacBio and Nanopore Long Amplicon Sequencing Analysis Pipeline for Microbiome.](https://doi.org/10.1002/advs.202512447)
+
+Version：v2.00
+
+Update：2025/10/17
 
 ## Pipeline manual and file description (流程使用和文件介绍)
 
@@ -15,15 +19,30 @@ Using RStudio open the pipeline.sh
 Files description:
 
 - Readme.md # Introduction and install
+- PPT # Slide for amplicon background and practical tutorial
+- docs # Wiki tutorial
+
+For Illumina or BGI-seq next-generation sequencing amplicon
 - pipeline.sh # Command-line analysis for Windows and Linux
 - pipeline_mac.sh # Command-line analysis for MacOS
 - result/ # Example result data
+- seq # short-read sequencing amplicon
 - result/Diversity.Rmd # Interactive diversity analysis in R and output reproducible report in HTML format
+- qiime2 # Using QIIME 2 analysis amplicon data 
+- Accu16S_ITS # Absolute quantify amplicon analysis script
+- advanced #
+
+For PacBio or Nanopore third-generation long-read sequencing amplicon
+- PacBio # Pipeline for PacBio long-read amplicon sequencing analysis
+- Nanopore # Pipeline for Nanopore long-read amplicon sequencing analysis
+- Mock # Synthetic community sequencing by Illumina and Pacbio for compare short and long amplicon
+- snakemake # Pipeline for long-read sequencing amplicon
 
 ## What can we do? (结果展示)
 
-- Analysis and visualization of microbiome data, especially for 16S rDNA amplicon;
+- Analysis and visualization of amplicon in microbiome, especially for 16S rDNA sequencing;
 - From raw data into feature tables;
+- Support all types of amplicon sequencing, such as Illumina, BGI, PacBio, Nanopore, Qitan, CycloneSeq, et al.;
 - Support 20+ analysis methods and publish-ready visualization;
 - Finish your project at your laptop in 3 hours;
 - Chinese/English manual and video supported.
@@ -52,7 +71,8 @@ Files description:
 All the software backup can be found in 
 
 - FTP: [Filezilla](https://filezilla-project.org/index.php) visiting FTP download.nmdc.cn in anonymous. In tools directory, you can find all the software and packages in amplicon and different system supporting such mac, win
-- Baidu Net Disk：https://pan.baidu.com/s/1Ikd_47HHODOqC3Rcx6eJ6Q?pwd=0315 
+- Baidu Net Disk：https://pan.baidu.com/s/1Ikd_47HHODOqC3Rcx6eJ6Q?pwd=0315
+- Nature Microbiology Data Center: https://nmdc.cn/analyze/classification
 
 Please install the dependency software according with you system (Win/Mac/Linux).
 
@@ -189,7 +209,13 @@ Note: All the .sh script is writting in markdown format, using Youdao Note or VS
 
 If used this script, please cited:
 
-**Yong-Xin Liu**, Lei Chen, Tengfei Ma, Xiaofang Li, Maosheng Zheng, Xin Zhou, Liang Chen, Xubo Qian, Jiao Xi, Hongye Lu, Huiluo Cao, Xiaoya Ma, Bian Bian, Pengfan Zhang, Jiqiu Wu, Ren-You Gan, Baolei Jia, Linyang Sun, Zhicheng Ju, Yunyun Gao, **Tao Wen**, **Tong Chen**. 2023. EasyAmplicon: An easy-to-use, open-source, reproducible, and community-based pipeline for amplicon data analysis in microbiome research. **iMeta** 2: e83. https://doi.org/10.1002/imt2.83
+Hao Luo, et al. 2025. EasyAmplicon 2: Expanding PacBio and Nanopore Long Amplicon Sequencing Analysis Pipeline for Microbiome. Advanced Science 12: https://doi.org/https://doi.org/10.1002/advs.202512447
+
+Salsabeel Yousuf, et al. 2024. Unveiling microbial communities with EasyAmplicon: A user-centric guide to perform amplicon sequencing data analysis. iMetaOmics 1: e42. https://doi.org/10.1002/imo2.42
+
+**Yong-Xin Liu**, et al. 2023. EasyAmplicon: An easy-to-use, open-source, reproducible, and community-based pipeline for amplicon data analysis in microbiome research. **iMeta** 2: e83. https://doi.org/10.1002/imt2.83
 
 Copyright 2016-2025 Yong-Xin Liu <liuyongxin@caas.cn>, Tao Wen <taowen@njau.edu.cn>, Tong Chen <chent@nrc.ac.cn>
+
+
 
