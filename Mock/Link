@@ -1,3 +1,10 @@
-https://pan.baidu.com/s/1Ikd_47HHODOqC3Rcx6eJ6Q?pwd=0315
+# Mock Data
+## This mock dataset is provided for testing and demonstration purposes. It includes data for Illumina, PacBio, and Nanopore sequencing platforms.
 
-db/soft/EasyAmplicon.tar.gz or EasyMicrobiome.tar.gz
+## Download Link
+https://pan.baidu.com/s/1Ikd_47HHODOqC3Rcx6eJ6Q?pwd=0315 
+
+Please decompress the files and place them into the corresponding directories:
+   * Illumina: db/amplicon/Mock/Illumina
+   * PacBio: db/amplicon/Mock/Pacbio
+   * Nanopore: db/amplicon/Mock/Nanopore
