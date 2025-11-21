@@ -65,6 +65,10 @@ For PacBio or Nanopore third-generation long-read sequencing amplicon
 
 <img width="1170" height="1188" alt="image" src="https://github.com/user-attachments/assets/73e47045-5221-4c19-a2b8-a25c580835a8" />
 
+**Figure 5. Supplementary examples of publication-quality visualizations to Figure 4.**
+<img width="1131" height="1146" alt="image" src="https://github.com/user-attachments/assets/3bed8112-42a3-452c-86b0-df13dc84ad9a" />
+
+
 
 ## Install (安装)
 
@@ -169,9 +173,8 @@ For more Chinese tutorials on conda installation and use, please refer to: [Natu
     soft=~/miniconda3
 
     ### Download and install
-    百度网盘下载链接：Baidu Net Disk：https://pan.baidu.com/s/1Ikd_47HHODOqC3Rcx6eJ6Q?pwd=0315
-    文件路径：db/amplicon/easyamplicon2.tar.gz
-    File path: db/amplicon/easyamplicon2.tar.gz
+    Baidu Net Disk(百度网盘下载链接)：https://pan.baidu.com/s/1Ikd_47HHODOqC3Rcx6eJ6Q?pwd=0315
+    File path(文件路径): db/amplicon/easyamplicon2.tar.gz
 
     ### Specify installation directory
     mkdir -p ${soft}/envs/${s}
