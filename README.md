@@ -1,4 +1,4 @@
-# EasyAmplicon (易扩增子)
+# EasyAmplicon 
 
 The Chinese version in (中文版见) [README_cn.md](./README_cn.md)
 
